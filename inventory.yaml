@@ -1,5 +1,6 @@
-[dbserver]
-192.168.56.102  ansible_python_interpreter=/usr/bin/python3
-
-[fileserver]
-192.168.56.103  ansible_python_interpreter=/usr/bin/python3
+virtualmachines:
+  hosts:
+    vm1:
+      ansible_host: 192.168.56.102
+    vm2:
+      ansible_host: 192.168.56.103
